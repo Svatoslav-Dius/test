@@ -23,9 +23,9 @@ public class plScript : MonoBehaviour
         characterAppearance.color = colorPlayer;
 
         rigidbody = gameObject.GetComponent<Rigidbody2D>();
-        rigidbody.mass = 6;
+        rigidbody.mass = 4;
         rigidbody.gravityScale = 3;
-        GetComponent<Transform>().position = new Vector3(0, 0, 0);
+        GetComponent<Transform>().position = new Vector3(5, 2, 6);
     }
 
     // Update is called once per frame
